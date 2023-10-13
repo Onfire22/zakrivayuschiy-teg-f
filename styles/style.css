@@ -24,7 +24,7 @@
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-size: cover;
-  font-variation-settings: var(--text-font-weight);
+  font-variation-settings: 'wght' var(--text-font-weight);
 }
 
 .container {
@@ -219,7 +219,7 @@
 .article__title {
   padding: 3px 10px;
   font-size: inherit;
-  font-weight: var(--title-font-weight);
+  font-variation-settings: 'wght' var(--title-font-weight);
 }
 
 
@@ -506,6 +506,14 @@
 /* media */
 
 @media(width <= 375px) {
+  .header {
+    padding: 120px 0 27px;
+  }
+
+  .article__image-label {
+    right: 11px;
+  }
+
   .footer__button {
     flex-direction: column;
   }
