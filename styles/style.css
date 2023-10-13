@@ -353,17 +353,6 @@
   transition: 0.3s 0.05s;
 }
 
-.like-icon:active .core {
-  fill: var(--heart-main-color);
-  transition: 0.3s;
-}
-
-.like-icon:active .main-body {
-  fill: var(--heart-main-color);
-  transition: 0.3s 0.05s;
-}
-
-
 .like-icon.is-liked .core {
   fill: var(--heart-main-color);
   transition: 0.3s;
