@@ -22,7 +22,9 @@
   font-size: 18px;
   font-style: normal;
   background-color: var(--bg-color, rgba(255, 255, 255, 1));
-  background-image: var(--bg-image);
+  background-image: var(--bg-image, repeating-linear-gradient(#d3d3d3, transparent 4px),
+                                    repeating-linear-gradient(90deg, #d3d3d3, transparent 4px),
+                                    repeating-linear-gradient(#e7e7e7, #1a1a1a));
   background-size: cover;
   font-variation-settings: 'wght' var(--text-font-weight, 400);
 }
